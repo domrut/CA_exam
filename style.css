@@ -94,6 +94,14 @@ a {
     justify-content: space-around;
 }
 
+.j-start {
+    justify-content: flex-start;
+}
+
+.j-end {
+    justify-content: flex-end;
+}
+
 .f-direction {
     flex-direction: column;
 }

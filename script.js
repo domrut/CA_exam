@@ -19,9 +19,9 @@ button.addEventListener("click", () => {
             cardsLeft.innerText = data.remaining;
             console.log(data);
             cards.innerHTML = `
-            <div class="d-flex j-btw p20 m10 f-direction">
-                <p class="borderis">${data.cards[0].value}</p>
-                <p class="borderis">${data.cards[0].value}</p>
+            <div class="d-flex j-btw dydis p20 borderis m10 f-direction">
+                <p class="d-flex j-start">${data.cards[0].value}</p>
+                <p class="d-flex j-end">${data.cards[0].value}</p>
             </div>`
         })
         .catch(err => console.log(err))
