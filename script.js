@@ -16,8 +16,13 @@ button.addEventListener("click", () => {
     fetch(`https://www.deckofcardsapi.com/api/deck/${cardData}/draw/?count=1`)
         .then(res => res.json())
         .then(data => {
-            console.log(data.cards[0].image, data.remaining, data);
             cardsLeft.innerText = data.remaining;
+            console.log(data);
+            cards.innerHTML = `
+            <div class="d-flex j-btw p20 m10 f-direction">
+                <p class="borderis">${data.cards[0].value}</p>
+                <p class="borderis">${data.cards[0].value}</p>
+            </div>`
         })
         .catch(err => console.log(err))
 })
