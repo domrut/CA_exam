@@ -10,6 +10,8 @@ const generateImage = (imgSrc) => {
     image = imgSrc;
 }
 
+//edited failai
+
 inputs[0].addEventListener("change", () => {
     document.querySelector(".inputas").innerText = inputs[0].value;
 })
