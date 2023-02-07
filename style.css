@@ -5,6 +5,28 @@ body {
 * {
     box-sizing: border-box;
 }
+.container {
+    height: 100%;
+}
+
+.getPhoto, .addToRecipes {
+    width: 150px;
+}
+
+.imageSize {
+    width: 150px;
+    height: 150px;
+    display: none;
+}
+
+.imageSizeAll {
+    width: 250px;
+    height: 250px;
+}
+
+.ingredient {
+    margin-right: 3px;
+}
 
 .d-flex {
     display: flex;
@@ -76,10 +98,12 @@ body {
 
 .link-style {
     list-style: none;
+    color: black;
+    text-decoration: none;
 }
 
 .d-inline {
-    display: inline-block;
+    display: inline;
 }
 
 .a-self-center {
