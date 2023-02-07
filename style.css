@@ -2,69 +2,9 @@ body {
     margin: 0;
 }
 
-.container {
-}
-
-.secondaryImage {
-    display: none;
-}
-
 * {
     box-sizing: border-box;
 }
-
-.dydis {
-    width: 350px;
-    height: 350px;
-}
-
-.dydis1 {
-    width: 550px;
-    height: 450px;
-}
-
-.inputas {
-    position: absolute;
-    left: 420px;
-    top: 10px;
-    font-size: 50px;
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-.inputas1 {
-    position: absolute;
-    left: 400px;
-    top: 350px;
-    font-size: 50px;
-    margin: 0;
-}
-
-.error {
-    display: none;
-}
-
-.male {
-    background-color: blue;
-}
-
-.female {
-    background-color: pink;
-}
-
-.progressBarInside {
-    background-color: red;
-    width: 0%;
-    height: 20px;
-}
-
-/*.progressBar {*/
-/*    transform: rotate(-90deg);*/
-/*}*/
 
 .d-flex {
     display: flex;
