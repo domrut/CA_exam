@@ -33,7 +33,6 @@ getPhoto.addEventListener("click", () => {
 
 inputs.forEach(el => {
     el.addEventListener("change", (event) => {
-        console.log(el, event.composedPath()[0].attributes[1].value, event.target.id)
         if (title.id === event.composedPath()[0].attributes[1].value) {
             title.innerText = recipe.title = el.value;
         } else if (description.id === event.composedPath()[0].attributes[1].value) {
